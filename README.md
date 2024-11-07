@@ -1,5 +1,5 @@
-# PyNg-DNS
-Ping of popular DNS servers
+# What is it?
+This script pings popular DNS servers, thereby helping you choose the best DNS server for you. (by ping)
 
 
 # How to compile?
