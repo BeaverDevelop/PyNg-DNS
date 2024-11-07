@@ -1,0 +1,4 @@
+1.0.1 | November 7, 2024
+- Added the ability to find out the DNS IP address
+- Added rounding
+- The ping indication is now not in seconds, but in milliseconds.
