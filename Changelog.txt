@@ -2,3 +2,7 @@
 - Added the ability to find out the DNS IP address
 - Added rounding
 - The ping indication is now not in seconds, but in milliseconds.
+
+1.0.2 | December 16, 2024
+- The translation error has been fixed
+- A possible error message has been added
