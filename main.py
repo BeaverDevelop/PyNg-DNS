@@ -1,9 +1,9 @@
-# V 1.0.1, by https://github.com/BeaverDevelop
+# V 1.0.2, by https://github.com/BeaverDevelop
 
 from ping3 import ping
 import time
 
-print("V 1.0.1, by https://github.com/BeaverDevelop")
+print("V 1.0.2, by https://github.com/BeaverDevelop")
 time.sleep(3)
 
 # DNS
@@ -36,13 +36,14 @@ print("Cloudflare: ", round(CloudflareResult), 'ms')
 print("AdGuard: ", round(AdGuardResult), 'ms')
 print("ComodoSecure: ", round(CloudflareResult), 'ms')
 print("Yandex: ", round(YandexResult), 'ms')
+print("\n\nIf 0 is somewhere, then an error occurred during ping, restart the program")
 
 # Viewing DNS IP Addresses
-see_ip = input("Do you want to see the IP address lists of all these DNS? (y/n) ")
+see_ip = input("\nDo you want to see the IP address lists of all these DNS? (y/n) ")
 
 # if the answer is yes
 if see_ip == "y":
-    print(f"\nПинг серверов окончен.\n")
+    print(f"\nServer ping is over.\n")
     print("Google: ", Google)
     print("ControlD: ", ControlD)
     print("Quad9: ", Quad9)
